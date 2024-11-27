@@ -1,0 +1,88 @@
+.rz-hero-home {
+    position: relative;
+    display: flex;
+}
+
+.rz-hero-home:after {
+    content: '';
+    width: 100%;
+    height: calc(100% + 150px);
+    position: absolute;
+    left: 0;
+    top: -150px;
+    background: url("../../img/bg-hero-home.svg") no-repeat center;
+    background-size: cover;
+}
+
+.rz-hero-home div {
+    position: relative;
+    z-index: 10;
+}
+
+.text-count {
+    font-size: 50px;
+    line-height: 1.2em;
+}
+
+.rz-products a:hover .icon-play {
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 1;
+}
+
+.rz-partners figure {
+    display: flex;
+    justify-content: center;
+}
+
+.rz-partners figure img {
+    max-height: 30px;
+    min-height: 30px;
+}
+
+.rz-partners .slick-dots {
+    left: 0;
+    bottom: -40px;
+}
+
+.rz-partners .slick-dots li {
+    margin: 0 2px;
+}
+
+.rz-partners .slick-dots li button:before {
+    font-size: 15px;
+}
+
+.rz-process article {
+    height: 100%;
+    border-left: 1px solid rgba(var(--primary-color), 1);
+    counter-reset: list-number;
+}
+
+.rz-process aside {
+    position: relative;
+    padding-left: 80px;
+    margin-bottom: 120px;
+    top: -10px
+}
+
+.rz-process aside:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+.rz-process aside:before {
+    counter-increment: list-number;
+    content: counter(list-number);
+    width:60px;
+    height:60px;
+    display:inline-flex;
+    align-items:center;
+    justify-content: center;
+    font-size:26px;
+    background-color:rgba(var(--primary-color), 1);
+    border-radius:50%;
+    color: rgba(var(--white), 1) !important;
+    position: absolute;
+    left: -30px;
+    top: -5px;
+}

@@ -1,0 +1,24 @@
+.rz-testi .rz-card {
+    background: url("../../img/bg-testi.svg") no-repeat center;
+    background-size: cover;
+}
+
+.rz-testi .rz-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.slick-dots {
+    left: 0 !important;
+    bottom: -50px !important;
+}
+
+.slick-dots li {
+    margin: 0 2px !important;
+}
+
+.slick-dots li button:before {
+    font-size: 15px;
+    color: rgba(var(--white), 1) !important;
+}

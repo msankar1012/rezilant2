@@ -1,0 +1,129 @@
+/* Footer */
+.rz-footer {
+    width: 100%;
+    display: inline-block;
+}
+
+.rz-footer p,
+.rz-footer p a,
+.rz-footer ul li,
+.rz-footer ul li a {
+    color: rgba(var(--white), 1);
+}
+
+.rz-footer .rz-footer-top aside {
+    width: 23.33%;
+    float: left
+}
+
+.rz-footer .rz-footer-top aside:first-child {
+    width: 40%;
+    padding-right: 110px;
+}
+
+.rz-footer .rz-footer-top aside:nth-child(2) {
+    width: 16%;
+}
+
+.rz-footer .rz-footer-top aside:nth-child(4) {
+    width: 20%;
+}
+
+.rz-footer .rz-footer-top aside h5 {
+    color: rgba(var(--white), 1);
+    margin-bottom: 15px
+}
+
+.rz-footer .rz-footer-top aside ul {
+    margin-bottom: 0
+}
+
+.rz-footer .rz-footer-top aside ul li {
+    margin-bottom: 15px;
+    line-height: 1.4em
+}
+
+.rz-footer .rz-footer-top aside .footer-logo img {
+    height: 50px;
+}
+
+.rz-footer .rz-footer-top aside ul.rz-social-links li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.rz-footer .copyrights p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media (max-width: 1199px) {
+    .rz-footer .rz-footer-top {
+        padding-bottom: 0 !important
+    }
+
+    .rz-footer .rz-footer-top aside {
+        width: 23%;
+        margin-bottom: 30px
+    }
+
+    .rz-footer .rz-footer-top aside:last-child {
+        width: 100%
+    }
+
+    .rz-footer .rz-footer-top aside:last-child .btns-app {
+        display: flex;
+    }
+
+    .rz-footer .rz-footer-top aside:last-child .btns-app p {
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .rz-footer {
+        margin-top: 0
+    }
+
+    .rz-footer .rz-footer-top aside {
+        width: 30.33% !important;
+        margin-bottom: 30px
+    }
+
+    .rz-footer .rz-footer-top aside:first-child {
+        width: 39.33% !important;
+    }
+
+    .rz-footer .rz-footer-top aside:nth-child(4),
+    .rz-footer .rz-footer-top aside:last-child {
+        width: 50% !important;
+    }
+
+    .rz-footer .rz-footer-top aside:last-child .btns-app {
+        display: block;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .rz-footer .rz-footer-top aside ul li {
+        margin-bottom: 15px;
+    }
+
+    .rz-footer .rz-footer-top aside,
+    .rz-footer .rz-footer-top aside:first-child {
+        width: 100% !important;
+        margin-bottom: 35px
+    }
+
+    .rz-footer .rz-footer-top aside:nth-child(2),
+    .rz-footer .rz-footer-top aside:nth-child(3) {
+        width: 50% !important
+    }
+
+    .rz-footer .rz-footer-top aside:nth-child(4),
+    .rz-footer .rz-footer-top aside:last-child {
+        width: 100% !important;
+    }
+}
