@@ -31,10 +31,12 @@ const Homepage = () => {
                 <div className="container pb-4">
                     <div className="row justify-content-center align-items-center">
                         <div className="col-md-6">
-                            <h1 className='h1_xxlarge mb-1'>Tailored IT solutions driving your digital success!</h1>
-                            <p className='text-xlarge mb-3 pe-lg-5'>Power your online presence with cutting-edge web and
-                                app development and strategic digital marketing solutions. Elevate your brand, drive
-                                results.</p>
+                            <p className={'text-white pb-3'}><span
+                                className={'bg-primary d-inline-block px-3 rounded-4'}>Where AI Meets Design</span></p>
+                            <h1 className='h1_xxlarge mb-1'>Elevating Digital Excellence</h1>
+                            <p className='text-xlarge mb-3 pe-lg-4'>
+                                At Rezilant, we fuse creativity with AI to craft intuitive experiences, innovative designs, and intelligent solutions that transform your digital presence.
+                            </p>
                             <a href="/" className='btn btn-primary btn-lg'>Get Started Today!</a>
                         </div>
 
@@ -45,7 +47,7 @@ const Homepage = () => {
                 </div>
             </div>
 
-            <div className={'py-80 mt-md-4'}>
+            <div className={'py-80'}>
                 <div className={'container'}>
                     <div className={'row align-items-center'}>
                         <div className={'col-lg-6'}>
@@ -58,10 +60,10 @@ const Homepage = () => {
                                                     <svg xmlns="http://www.w3.org/2000/svg"
                                                          viewBox="0 0 512 512">
                                                         <path
-                                                            d="M416 44.2c0-7.2-8.8-10.8-13.8-5.5L378.4 63.9C336.5 108 282.7 138.4 224 151.5V328.5c58.7 13.1 112.5 43.4 154.4 87.6l23.8 25.1c5 5.3 13.8 1.7 13.8-5.5V44.2zM192 323.1V156.9c-5.8 .7-11.6 1.1-17.5 1.5L144.9 160l-.4 0H144 64c-17.7 0-32 14.3-32 32v96c0 17.7 14.3 32 32 32h80 .4l.4 0 29.7 1.6c5.8 .3 11.7 .8 17.5 1.5zM379 16.7c24.9-26.3 69-8.7 69 27.5V435.8c0 36.2-44.2 53.8-69 27.5l-23.8-25.1c-43.3-45.7-101-74.9-163.1-82.8V456c0 30.9-25.1 56-56 56H120c-30.9 0-56-25.1-56-56V352c-35.3 0-64-28.7-64-64V192c0-35.3 28.7-64 64-64l79.6 0 29.2-1.6c69.4-3.9 134.6-34.1 182.4-84.5L379 16.7zM96 352V456c0 13.3 10.7 24 24 24h16c13.3 0 24-10.7 24-24V352.9l-16.4-.9H96zM496 192c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16s-16-7.2-16-16V208c0-8.8 7.2-16 16-16z"/>
+                                                            d="M160 0c8.8 0 16 7.2 16 16l0 48 64 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 64 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 16 0c35.3 0 64 28.7 64 64l0 16 48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0 0 64 48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0 0 64 48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0 0 16c0 35.3-28.7 64-64 64l-16 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48-64 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48-64 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48-16 0c-35.3 0-64-28.7-64-64l0-16-48 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l48 0 0-64-48 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l48 0 0-64-48 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l48 0 0-16c0-35.3 28.7-64 64-64l16 0 0-48c0-8.8 7.2-16 16-16zM128 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-256c0-17.7-14.3-32-32-32L128 96zm94.7 89.6l56 128c3.5 8.1-.1 17.5-8.2 21.1s-17.5-.2-21.1-8.2L239.5 304l-63.1 0-9.8 22.4c-3.5 8.1-13 11.8-21.1 8.2s-11.8-13-8.2-21.1l56-128c2.5-5.8 8.3-9.6 14.7-9.6s12.1 3.8 14.7 9.6zM208 231.9L190.5 272l35.1 0L208 231.9zM352 192l0 128c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16s16 7.2 16 16z"/>
                                                     </svg>
                                                 </div>
-                                                <h4>Digital <br/> marketing</h4>
+                                                <h4>AI Agents</h4>
                                                 <a href="/" className={'link-text'}><span
                                                     className={'me-2'}>Read More</span>
                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -81,12 +83,12 @@ const Homepage = () => {
                                             <div>
                                                 <div className="rz-icon mb-4">
                                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                                         viewBox="0 0 384 512">
+                                                         viewBox="0 0 512 512">
                                                         <path
-                                                            d="M96 32C78.3 32 64 46.3 64 64V448c0 17.7 14.3 32 32 32H288c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32H96zM32 64C32 28.7 60.7 0 96 0H288c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V64zM160 400h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H160c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
+                                                            d="M480 258.3c-.1 14.1-13.8 29.7-38.1 29.7H344c-44.2 0-80 35.8-80 80c0 5.6 .6 11.2 1.7 16.6c2.9 13.8 8.9 27.3 13.2 37c.8 1.7 1.5 3.3 2.1 4.8c5 11.6 6.9 18.2 6.9 23.5c0 19.2-12.3 29.6-22.7 30c-3.1 .1-6.2 .2-9.3 .2C132.3 480 32 379.7 32 256S132.3 32 256 32s224 100.3 224 224c0 .8 0 1.6 0 2.3zm32 .3c0-.9 0-1.8 0-2.7C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512c3.5 0 7.1-.1 10.6-.2c31.8-1.3 53.4-30.1 53.4-62c0-14.5-6.1-28.3-12.1-42c-4.3-9.8-8.7-19.7-10.8-29.9c-.7-3.2-1-6.5-1-9.9c0-26.5 21.5-48 48-48h97.9c36.5 0 69.7-24.8 70.1-61.3zM152 256a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm8-72a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm120-56a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm72 56a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"/>
                                                     </svg>
                                                 </div>
-                                                <h4>Mobile app development</h4>
+                                                <h4>UI/UX Design</h4>
                                                 <a href="/" className={'link-text'}><span
                                                     className={'me-2'}>Read More</span>
                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +113,7 @@ const Homepage = () => {
                                                             d="M405.1 .8c-8.4-2.8-17.4 1.7-20.2 10.1l-160 480c-2.8 8.4 1.7 17.4 10.1 20.2s17.4-1.7 20.2-10.1l160-480c2.8-8.4-1.7-17.4-10.1-20.2zM172 117.4c-5.9-6.6-16-7.2-22.6-1.3l-144 128C2 247.1 0 251.4 0 256s2 8.9 5.4 12l144 128c6.6 5.9 16.7 5.3 22.6-1.3s5.3-16.7-1.3-22.6L40.1 256 170.6 140c6.6-5.9 7.2-16 1.3-22.6zm296.1 0c-5.9 6.6-5.3 16.7 1.3 22.6L599.9 256 469.4 372c-6.6 5.9-7.2 16-1.3 22.6s16 7.2 22.6 1.3l144-128c3.4-3 5.4-7.4 5.4-12s-2-8.9-5.4-12l-144-128c-6.6-5.9-16.7-5.3-22.6 1.3z"/>
                                                     </svg>
                                                 </div>
-                                                <h4>Website design & development</h4>
+                                                <h4>Web App Development</h4>
                                                 <a href="/" className={'link-text'}><span
                                                     className={'me-2'}>Read More</span>
                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -131,12 +133,12 @@ const Homepage = () => {
                                             <div>
                                                 <div className="rz-icon mb-4">
                                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                                         viewBox="0 0 512 512">
+                                                         viewBox="0 0 384 512">
                                                         <path
-                                                            d="M480 258.3c-.1 14.1-13.8 29.7-38.1 29.7H344c-44.2 0-80 35.8-80 80c0 5.6 .6 11.2 1.7 16.6c2.9 13.8 8.9 27.3 13.2 37c.8 1.7 1.5 3.3 2.1 4.8c5 11.6 6.9 18.2 6.9 23.5c0 19.2-12.3 29.6-22.7 30c-3.1 .1-6.2 .2-9.3 .2C132.3 480 32 379.7 32 256S132.3 32 256 32s224 100.3 224 224c0 .8 0 1.6 0 2.3zm32 .3c0-.9 0-1.8 0-2.7C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512c3.5 0 7.1-.1 10.6-.2c31.8-1.3 53.4-30.1 53.4-62c0-14.5-6.1-28.3-12.1-42c-4.3-9.8-8.7-19.7-10.8-29.9c-.7-3.2-1-6.5-1-9.9c0-26.5 21.5-48 48-48h97.9c36.5 0 69.7-24.8 70.1-61.3zM152 256a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm8-72a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm120-56a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm72 56a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"/>
+                                                            d="M96 32C78.3 32 64 46.3 64 64V448c0 17.7 14.3 32 32 32H288c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32H96zM32 64C32 28.7 60.7 0 96 0H288c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V64zM160 400h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H160c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
                                                     </svg>
                                                 </div>
-                                                <h4>Graphic & <br/> design</h4>
+                                                <h4>Mobile App Development</h4>
                                                 <a href="/" className={'link-text'}><span
                                                     className={'me-2'}>Read More</span>
                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -156,10 +158,8 @@ const Homepage = () => {
                             <div className={'ps-lg-5'}>
                                 <p className={'text-white pb-3'}><span
                                     className={'bg-primary d-inline-block px-3 rounded-4'}>Our Services</span></p>
-                                <h2>We Offer a 360° digital marketing and web development solutions</h2>
-                                <p className={'text-large mb-3 pe-lg-5'}>Our Goal is to take every business online With
-                                    Best Web Development Service in India, hassle-free & then take it to an exceptional
-                                    height with the Best Creative Team of Digital Marketing Professionals.</p>
+                                <h2 className={'pe-lg-5'}>Your Partner in Digital Excellence</h2>
+                                <p className={'text-large mb-3 pe-lg-5'}>Comprehensive solutions combining AI, UI/UX, web, and mobile expertise to transform your business and unlock your digital potential.</p>
 
                                 <a href="/" className={'btn btn-primary btn-with-arrow'}>
                                     More Services
@@ -175,41 +175,35 @@ const Homepage = () => {
                 </div>
             </div>
 
-
-            <div className={'py-80 mt-md-4'}>
+            <div className={'pb-80 mt-md-4'}>
                 <div className={'container'}>
                     <div className={'row align-items-center'}>
                         <div className={'col-lg-6 pe-lg-5'}>
                             <div className={'pe-lg-5'}>
                                 <p className={'text-white pb-3'}><span
                                     className={'bg-primary d-inline-block px-3 rounded-4'}>Who We Are</span></p>
-                                <h2>Top web development and digital marketing agency in india</h2>
-                                <p className={'text-large mb-3'}>We are chasing a goal to become the best of the best in
-                                    The Global Online Economy by prioritising our clients and empowering them with
-                                    continuous support 24x7x365.</p>
+                                <h2>Our Values</h2>
+                                <p className={'text-large'}>We are chasing a goal to become the best of the best in The Global Online Economy by prioritising our clients and empowering them with continuous support 24x7x365</p>
 
                                 <ul className={'check-ul-list check-ul-list-large'}>
                                     <li>
-                                        <p className={'text-large pb-1'}><strong>Innovation that Stands apart</strong>
-                                        </p>
-                                        <p>Nam ac pretium elit praesent cursus quis nunc sit amet sollicitudin nullam
-                                            dignissim velit nisl.</p>
+                                        <p className={'text-large pb-1'}><strong>Flawless Execution:</strong> We're
+                                            meticulous about every detail, ensuring seamless user experiences.</p>
                                     </li>
 
                                     <li>
-                                        <p className={'text-large pb-1'}><strong>We chase excellence, not
-                                            deadlines</strong>
-                                        </p>
-                                        <p>Nam ac pretium elit praesent cursus quis nunc sit amet sollicitudin nullam
-                                            dignissim velit nisl.</p>
+                                        <p className={'text-large pb-1'}><strong>Innovative Spirit:</strong> We stay
+                                            ahead of the curve, embracing cutting-edge technologies and trends.</p>
                                     </li>
 
-                                    <li className={'mb-0'}>
-                                        <p className={'text-large pb-1'}><strong>Next gen technological arsenal</strong>
-                                        </p>
-                                        <p className={'pb-0'}>Nam ac pretium elit praesent cursus quis nunc sit amet
-                                            sollicitudin nullam
-                                            dignissim velit nisl.</p>
+                                    <li>
+                                        <p className={'text-large pb-1'}><strong>Authentic Partnerships:</strong> We
+                                            foster transparent, honest, and respectful relationships with clients and
+                                            team members.</p>
+                                    </li>
+
+                                    <li>
+                                        <p className={'text-large pb-1'}><strong>Collaborative Excellence:</strong> We unite expertise and creativity to deliver exceptional results.</p>
                                     </li>
                                 </ul>
                             </div>
@@ -226,13 +220,11 @@ const Homepage = () => {
             <div className={'py-80'}>
                 <div className={"container"}>
                     <div className={'row justify-content-center'}>
-                        <div className={'col-lg- col-md-8 text-center'}>
+                        <div className={'col-lg-10 col-md-8 text-center'}>
                             <p className={'text-white pb-3'}><span
                                 className={'bg-primary d-inline-block px-3 rounded-4'}>Our Industries</span></p>
-                            <h2>Industries We Serve</h2>
-                            <p className={'text-large mb-3'}>We don’t limit ourselves to certain industries, we are
-                                exploring all the avenues of the digital economy and helping our clients to establish a
-                                distinguished web presence across industries.</p>
+                            <h2>Digital Transformation Across Industries</h2>
+                            <p className={'text-large mb-3 px-lg-5'}>Our expertise knows no bounds. We partner with clients from diverse industries, providing innovative solutions that drive digital growth, enhance online presence, and foster business success.</p>
                         </div>
                     </div>
 

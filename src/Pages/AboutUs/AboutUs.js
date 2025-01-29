@@ -10,10 +10,8 @@ export const AboutUs = () => {
                 <div className="container pb-4">
                     <div className="row justify-content-center align-items-center">
                         <div className="col-md-6">
-                            <h1 className='h1_xxlarge mb-1'>About Us</h1>
-                            <p className='text-xlarge mb-3 pe-lg-5'>Welcome to Webtechnomind IT Solutions, the leading
-                                Website Design and Development Company in India, offering comprehensive web development,
-                                mobile app development and also digital marketing services to a global clientele.</p>
+                            <h1 className='h1_xxlarge mb-1'>Empowering Innovation, Enhancing Experience</h1>
+                            <p className='text-xlarge mb-3 pe-lg-5'>At Rezilant, we're passionate about harnessing the power of technology to create transformative experiences. Our team of experts specializes in building intelligent AI agents, crafting intuitive UI/UX designs, and developing seamless mobile and web applications.</p>
                             <a href="/" className='btn btn-primary btn-lg'>Get Started Today!</a>
                         </div>
 
@@ -97,7 +95,6 @@ export const AboutUs = () => {
                 </div>
             </div>
 
-
             <div className={'py-80 mt-md-4'}>
                 <div className={'container'}>
                     <div className={'row align-items-center'}>
@@ -127,7 +124,6 @@ export const AboutUs = () => {
                     </div>
                 </div>
             </div>
-
 
             <div className={'py-80 mt-md-4'}>
                 <div className={'container'}>
@@ -175,7 +171,6 @@ export const AboutUs = () => {
                     </div>
                 </div>
             </div>
-
 
             <div className={'py-80'}>
                 <div className={"container"}>
@@ -248,7 +243,6 @@ export const AboutUs = () => {
                     </div>
                 </div>
             </div>
-
 
             <div className={'py-80 mt-md-4'}>
                 <div className={'container'}>
