@@ -2,7 +2,7 @@ name: Firebase Deployment
 on:
   push:
     branches:
-      - main
+      - rezilant2
 jobs:
   build:
     name: Build
